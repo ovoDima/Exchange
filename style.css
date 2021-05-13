@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 28.1rem;
+}
+
+h1 {
+    color: #364590;
+    margin: 0 0 0.5rem 0;
+}
+
+.container .box {
+    width: 100%;
+    display: flex;
+}
+
+.box div {
+    width: 100%;
+}
+
+select {
+    width: 95%;
+    height: 2.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    background: #7868e6;
+    color: #fff;
+    margin: 0.2rem 0;
+    padding: 0.1rem;
+    border-radius: 0.62rem;
+    border: none;
+}
+
+input {
+    width: 95%;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin: 0.2rem 0;
+    border-radius: 0.62rem;
+    border: none;
+    background: #edeef9;
+    outline: none;
+    padding: 0 1rem;
+}
+
+.btn {
+    width: 98%;
+    height: 2.5rem;
+    background: #364949;
+    color: #ffff;
+    border-radius: 0.62rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
